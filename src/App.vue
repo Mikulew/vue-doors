@@ -1,5 +1,17 @@
 <template>
   <div id="app">
-    <p>Lorem Ipsum</p>
+    <div class="app-container">
+      <Navbar />
+    </div>
   </div>
 </template>
+
+<script>
+import Navbar from './components/Navbar.vue';
+
+export default {
+  components: {
+    Navbar,
+  },
+};
+</script>
